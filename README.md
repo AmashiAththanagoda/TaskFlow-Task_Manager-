@@ -2,7 +2,7 @@
 
 A luxury minimalist task management web application built with **Core PHP (MVC)** and **MySQL**.
 
-Live demo: [your-link-here.infinityfreeapp.com](https://your-link-here.infinityfreeapp.com)
+Live demo: [mytaskflow.free.nf](https://mytaskflow.free.nf)
 
 ---
 
@@ -76,7 +76,7 @@ taskflow/
 
 ### 2. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/taskflow.git
+git clone https://github.com/AmashiAththanagoda/taskflow.git
 ```
 
 ### 3. Copy to XAMPP
@@ -126,12 +126,8 @@ Restart Apache → visit **http://taskflow.local**
 
 ---
 
-## Screenshots
-
-> Add your screenshots here
-
----
 
 ## License
 
 MIT
+

@@ -1,0 +1,25 @@
+# Dependencies
+/vendor/
+
+# Environment / secrets - never commit real credentials
+.env
+config/db.local.php
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+/logs/
+
+# Temp / cache
+/cache/
+/tmp/

@@ -1,0 +1,18 @@
+# task-manager/.htaccess
+# NOTE: URL rewriting is handled ONLY by public/.htaccess
+# since the Apache DocumentRoot points directly to public/.
+# Adding RewriteRules here would cause an infinite redirect loop.
+
+# Security: hide PHP version and server info
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options SAMEORIGIN
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Block direct browser access to sensitive file types
+<FilesMatch "\.(sql|md|env|log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

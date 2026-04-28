@@ -183,7 +183,7 @@ $isLoggedIn = !empty($_SESSION['user_id']);
 <?php endif; ?>
 
 <main class="page">
-    <?= $content ?>
+    <?= $content ?? '' ?>
 </main>
 
 <footer style="border-top:1px solid var(--border);margin-top:80px;padding:24px;text-align:center">
